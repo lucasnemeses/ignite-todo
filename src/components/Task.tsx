@@ -1,8 +1,8 @@
-import { Trash } from 'phosphor-react';
+import { useMemo } from 'react';
 import { Button } from './Button';
 import { Checkbox } from './Checkbox';
+import { Trash } from 'phosphor-react';
 import style from './Task.module.css';
-import { useMemo } from 'react';
 
 export interface TaskType {
   id: string;

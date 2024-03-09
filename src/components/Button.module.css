@@ -1,0 +1,38 @@
+.button {
+  border: none;
+  background: var(--blue-700);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray-100);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  line-height: normal;
+  font-size: var(--font-sm);
+  transition: 0.2s background;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--blue-500);
+}
+
+.buttonSmall {
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: transparent;
+  border-radius: 4px;
+  color: var(--gray-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s background;
+  cursor: pointer;
+}
+
+.buttonSmall:hover {
+  background: var(--gray-400);
+  color: var(--red-500);
+}

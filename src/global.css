@@ -15,6 +15,10 @@
   --gray-100: #F2F2F2;
 
   --red-500: #E25858;
+
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
 }
 
 * {

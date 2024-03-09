@@ -1,8 +1,8 @@
 .input {
   background: var(--gray-500);
   border: 1px solid transparent;
-  height: 54px;
-  padding-inline: 16px;
+  height: 3.375rem;
+  padding-inline: 1rem;
   color: var(--gray-100);
   outline: none;
   border-radius: 8px;

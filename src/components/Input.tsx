@@ -15,6 +15,7 @@ export function Input({ value, placeholder, onChange }: InputProps) {
   return (
     <input
       className={style.input}
+      type="text"
       value={value}
       placeholder={placeholder}
       onChange={handleChange}

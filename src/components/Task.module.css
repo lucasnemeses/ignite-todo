@@ -1,0 +1,28 @@
+.task {
+  display: flex;
+  align-items: start;
+  border-radius: 8px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  gap: 1rem;
+  padding: 1rem;
+  transition: 0.2s all;
+}
+
+.task p {
+  color: var(--gray-100);
+  font-size: var(--font-sm);
+}
+
+.task button {
+  margin-left: auto;
+}
+
+.taskIsChecked {
+  border: 1px solid var(--gray-500);
+}
+
+.taskIsChecked p {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

@@ -1,6 +1,6 @@
 .input {
   background: var(--gray-500);
-  border: 1px solid transparent;
+  border: 1px solid var(--gray-700);
   height: 3.375rem;
   padding-inline: 1rem;
   color: var(--gray-100);

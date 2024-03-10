@@ -1,0 +1,19 @@
+.taskEmpty {
+  padding: 4rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.taskEmpty p {
+  color: var(--gray-300);
+  font-size: var(--font-md);
+}
+
+.bold {
+  font-weight: 700;
+}

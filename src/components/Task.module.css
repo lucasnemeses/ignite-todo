@@ -18,11 +18,11 @@
   margin-left: auto;
 }
 
-.taskIsChecked {
+.taskCompleted {
   border: 1px solid var(--gray-500);
 }
 
-.taskIsChecked p {
+.taskCompleted p {
   text-decoration: line-through;
   color: var(--gray-300);
 }

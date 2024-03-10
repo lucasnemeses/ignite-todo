@@ -1,0 +1,13 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  max-width: 46rem;
+  margin: -1.688rem auto 0;
+}
+
+.todoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

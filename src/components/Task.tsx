@@ -6,7 +6,7 @@ import style from './Task.module.css';
 
 export interface TaskType {
   id: string;
-  isChecked: boolean;
+  completed: boolean;
   content: string;
 }
 
@@ -18,7 +18,7 @@ interface TaskProps {
 
 export function Task({ task, onCheckTask, onDeleteTask }: TaskProps) {
   const styleTask = useMemo(() =>
-    `${style.task} ${task.isChecked ? style.taskIsChecked : ''}`,
+    `${style.task} ${task.completed ? style.taskCompleted : ''}`,
     [task]
   );
 
@@ -33,7 +33,7 @@ export function Task({ task, onCheckTask, onDeleteTask }: TaskProps) {
   return (
     <div className={styleTask}>
       <Checkbox
-        value={task.isChecked}
+        value={task.completed}
         onChange={handleCheckTask}
       />
 

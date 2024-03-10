@@ -1,0 +1,8 @@
+.taskCreate {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.taskCreate input {
+  flex: 1;
+}
